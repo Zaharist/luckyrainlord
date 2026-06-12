@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyRainLord - Волшебные носочки для маленьких модниц</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .star-filled {
+            fill: #FF69B4;
+            stroke: #FF69B4;
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <nav class="fixed w-full top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <i data-lucide="heart" class="text-pink-500 w-8 h-8"></i>
+                    <span class="text-2xl font-bold text-pink-600">LuckyRainLord</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-gray-700 hover:text-pink-500 transition">Носочки</a>
+                    <a href="#prices" class="text-gray-700 hover:text-pink-500 transition">Цены</a>
+                    <a href="#about" class="text-gray-700 hover:text-pink-500 transition">О нас</a>
+                    <a href="#gallery" class="text-gray-700 hover:text-pink-500 transition">Галерея</a>
+                    <a href="#team" class="text-gray-700 hover:text-pink-500 transition">Команда</a>
+                    <a href="#reviews" class="text-gray-700 hover:text-pink-500 transition">Отзывы</a>
+                    <a href="#contacts" class="bg-pink-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section style="background-image:url('https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.85);min-height:100vh;display:flex;align-items:center;">
+            <div class="container mx-auto px-6 text-center">
+                <div data-aos="fade-up">
+                    <h1 class="text-5xl md:text-7xl font-bold text-gray-800 mb-6 leading-tight">
+                        Волшебные носочки,<br>которые <span class="text-pink-500">всегда остаются новыми!</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
+                        Уже с дырочками! Теперь не нужно расстраиваться, когда появится дырка — она уже есть! Самые стильные и практичные носочки для маленьких принцесс.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="#services" class="bg-pink-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-pink-600 transition transform hover:scale-105">
+                            Посмотреть коллекцию
+                        </a>
+                        <a href="#contacts" class="border-2 border-pink-500 text-pink-500 px-10 py-4 rounded-full text-lg font-semibold hover:bg-pink-50 transition">
+                            Связаться с нами
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" style="background-image:url('https://images.unsplash.com/photo-1556906781-9a412961c28c?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.88);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Наши волшебные носочки</h2>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">Каждая пара уникальна и уже готова к приключениям!</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                            <i data-lucide="heart" class="text-pink-500 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Принцесса Дырочка</h3>
+                        <p class="text-gray-600 leading-relaxed">Розовые носочки с милыми сердечками и заранее продуманными дырочками. Идеальны для настоящих принцесс, которые любят комфорт!</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                            <i data-lucide="star" class="text-pink-500 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Звёздная Радуга</h3>
+                        <p class="text-gray-600 leading-relaxed">Яркие разноцветные носочки с блёстками и звёздочками. Дырочки расположены так стильно, что это настоящий тренд сезона!</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                            <i data-lucide="crown" class="text-pink-500 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Королевский Стиль</h3>
+                        <p class="text-gray-600 leading-relaxed">Элегантные носочки с короной и бантиками. Дырочки сделаны специально, чтобы ножки дышали и было удобно весь день!</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                            <i data-lucide="zap" class="text-pink-500 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Супергёрл</h3>
+                        <p class="text-gray-600 leading-relaxed">Для активных девочек! Яркие носочки с молниями и супер-дырочками, которые делают каждый шаг особенным.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                            <i data-lucide="camera" class="text-pink-500 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Модница Инста</h3>
+                        <p class="text-gray-600 leading-relaxed">Самые стильные носочки для фотосессий! Дырочки расположены так эстетично, что все подружки будут в восторге.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                            <i data-lucide="award" class="text-pink-500 w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Чемпионка</h3>
+                        <p class="text-gray-600 leading-relaxed">Спортивные носочки с медальками и заслуженными дырочками. Для девочек, которые покоряют вершины!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" style="background-image:url('https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.90);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Цены на волшебство</h2>
+                    <p class="text-xl text-gray-600">Качество и стиль по доступным ценам!</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-white p-8 rounded-3xl shadow-lg text-center border-2 border-pink-200" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Одна пара</h3>
+                        <div class="text-5xl font-bold text-pink-500 mb-4">299₽</div>
+                        <p class="text-gray-600 mb-6">Идеально для знакомства с нашими носочками</p>
+                        <a href="#contacts" class="block bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition">Заказать</a>
+                    </div>
+                    <div class="bg-gradient-to-br from-pink-500 to-pink-600 p-8 rounded-3xl shadow-xl text-center transform scale-105" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bg-white text-pink-500 px-4 py-1 rounded-full inline-block mb-4 font-semibold">Хит!</div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Три пары</h3>
+                        <div class="text-5xl font-bold text-white mb-4">699₽</div>
+                        <p class="text-pink-100 mb-6">Сэкономь 198₽ на покупке комплекта!</p>
+                        <a href="#contacts" class="block bg-white text-pink-500 px-6 py-3 rounded-full hover:bg-gray-100 transition font-semibold">Заказать</a>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg text-center border-2 border-pink-200" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Пять пар</h3>
+                        <div class="text-5xl font-bold text-pink-500 mb-4">999₽</div>
+                        <p class="text-gray-600 mb-6">Максимальная выгода для модниц!</p>
+                        <a href="#contacts" class="block bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages" style="background-image:url('https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.88);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Почему мы особенные?</h2>
+                    <p class="text-xl text-gray-600">Наши носочки — это не просто носочки!</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="bg-pink-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="shield" class="text-pink-500 w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Дырочки — это фишка!</h3>
+                        <p class="text-gray-600 leading-relaxed">Больше не нужно переживать, когда появится дырка. Она уже есть и это круто! Носочки прослужат гораздо дольше.</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bg-pink-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="heart" class="text-pink-500 w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Супер мягкие</h3>
+                        <p class="text-gray-600 leading-relaxed">Изготовлены из натурального хлопка высшего качества. Ножкам будет комфортно весь день!</p>
+                    </div>
+                    <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bg-pink-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="star" class="text-pink-500 w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Яркий дизайн</h3>
+                        <p class="text-gray-600 leading-relaxed">Каждая пара — это произведение искусства! Сердечки, звёздочки, короны и блёстки на любой вкус.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="background-image:url('https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.90);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">О нас</h2>
+                    <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                        Мы — команда LuckyRainLord, и мы придумали революцию в мире носочков! Наша идея родилась, когда мы заметили, как расстраиваются девочки, когда на их любимых носочках появляется дырка. Тогда мы подумали: а что если дырочка будет там сразу?
+                    </p>
+                    <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                        Теперь носочки LuckyRainLord — это тренд! Стильные, удобные, с продуманными дырочками, которые не портят внешний вид, а делают его особенным. Каждая пара создаётся с любовью и вниманием к деталям, чтобы маленькие модницы чувствовали себя уверенно и красиво!
+                    </p>
+                    <div class="flex justify-center gap-4">
+                        <div class="bg-pink-100 px-8 py-4 rounded-full">
+                            <div class="text-3xl font-bold text-pink-500">1000+</div>
+                            <div class="text-gray-600">Счастливых девочек</div>
+                        </div>
+                        <div class="bg-pink-100 px-8 py-4 rounded-full">
+                            <div class="text-3xl font-bold text-pink-500">50+</div>
+                            <div class="text-gray-600">Дизайнов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" style="background-image:url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.88);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Галерея стиля</h2>
+                    <p class="text-xl text-gray-600">Посмотри, как здорово выглядят наши носочки!</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=600" alt="Носочки с сердечками" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=600" alt="Радужные носочки" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=600" alt="Носочки с короной" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600" alt="Спортивные носочки" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600" alt="Блестящие носочки" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600" alt="Модные носочки" class="w-full h-64 object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" style="background-image:url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.90);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Наша команда мечты</h2>
+                    <p class="text-xl text-gray-600">Мы создаём волшебство для маленьких принцесс!</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-white rounded-3xl p-8 text-center shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                        <div class="w-32 h-32 bg-gradient-to-br from-pink-400 to-pink-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="crown" class="text-white w-16 h-16"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Алиса Волшебница</h3>
+                        <p class="text-pink-500 font-semibold mb-4">Главный дизайнер</p>
+                        <p class="text-gray-600">Придумывает самые красивые узоры и дырочки для носочков</p>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 text-center shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                        <div class="w-32 h-32 bg-gradient-to-br from-pink-400 to-pink-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="heart" class="text-white w-16 h-16"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">София Добрая</h3>
+                        <p class="text-pink-500 font-semibold mb-4">Мастер качества</p>
+                        <p class="text-gray-600">Следит, чтобы каждый носочек был супер мягким и удобным</p>
+                    </div>
+                    <div class="bg-white rounded-3xl p-8 text-center shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                        <div class="w-32 h-32 bg-gradient-to-br from-pink-400 to-pink-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                            <i data-lucide="star" class="text-white w-16 h-16"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Ева Яркая</h3>
+                        <p class="text-pink-500 font-semibold mb-4">Специалист по счастью</p>
+                        <p class="text-gray-600">Общается с клиентами и делает всех счастливыми!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" style="background-image:url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.88);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Что говорят наши маленькие клиенты</h2>
+                    <p class="text-xl text-gray-600">Отзывы девочек и их мам</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-3xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center mb-6">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?w=200" alt="Маша" class="w-16 h-16 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Маша</h4>
+                                <p class="text-sm text-gray-600">8 лет, Москва</p>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">Мама купила мне носочки Принцесса Дырочка и они самые красивые! Все подружки в садике спрашивают где я их взяла. Теперь я не плачу когда дырка, потому что она и так есть!</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center mb-6">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200" alt="Мама Ани" class="w-16 h-16 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Ирина (мама Ани)</h4>
+                                <p class="text-sm text-gray-600">Санкт-Петербург</p>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">Гениальная идея! Дочка очень переживала когда на носочках появлялись дырки. Теперь носит с удовольствием и говорит что это модно. Качество отличное, хлопок мягкий. Заказали уже третий комплект!</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center mb-6">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200" alt="Соня" class="w-16 h-16 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Соня</h4>
+                                <p class="text-sm text-gray-600">9 лет, Казань</p>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                            <i data-lucide="star" class="star-filled w-5 h-5"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">У меня теперь Звёздная Радуга и Королевский Стиль! Это лучшие носочки в моей жизни! Очень яркие, с блёстками и дырочки совсем не мешают, наоборот - красиво! Хочу ещё Супергёрл!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" style="background-image:url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600');background-size:cover;background-position:center;background-attachment:fixed;">
+        <div style="background:rgba(255,255,255,0.90);padding:96px 0;">
+            <div class="container mx-auto px-6" data-aos="fade-up">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Свяжись с нами!</h2>
+                    <p class="text-xl text-gray-600">Закажи волшебные носочки прямо сейчас</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                    <div>
+                        <div class="bg-white p-8 rounded-3xl shadow-lg mb-6">
+                            <div class="flex items-center mb-6">
+                                <div class="bg-pink-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <i data-lucide="phone" class="text-pink-500 w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Телефон</h4>
+                                    <a href="tel:872934" class="text-pink-500 text-lg">872934</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center mb-6">
+                                <div class="bg-pink-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <i data-lucide="mail" class="text-pink-500 w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Email</h4>
+                                    <a href="mailto:hello@luckyrainlord.ru" class="text-pink-500">hello@luckyrainlord.ru</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-pink-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <i data-lucide="map-pin" class="text-pink-500 w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">Адрес</h4>
+                                    <p class="text-gray-600">г. Москва, ул. Волшебная, д. 1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-pink-100 p-6 rounded-3xl">
+                            <h4 class="font-bold text-gray-800 mb-4 text-center">Мы в соцсетях</h4>
+                            <div class="flex justify-center gap-4">
+                                <div class="bg-white w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-pink-500 hover:text-white transition">
+                                    <i data-lucide="heart" class="w-6 h-6"></i>
+                                </div>
+                                <div class="bg-white w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-pink-500 hover:text-white transition">
+                                    <i data-lucide="star" class="w-6 h-6"></i>
+                                </div>
+                                <div class="bg-white w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-pink-500 hover:text-white transition">
+                                    <i data-lucide="camera" class="w-6 h-6"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-3xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Оставь заявку</h3>
+                        <form>
+                            <div class="mb-4">
+                                <input type="text" placeholder="Твоё имя" class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-pink-500 outline-none transition">
+                            </div>
+                            <div class="mb-4">
+                                <input type="tel" placeholder="Телефон мамы" class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-pink-500 outline-none transition">
+                            </div>
+                            <div class="mb-4">
+                                <input type="email" placeholder="Email" class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-pink-500 outline-none transition">
+                            </div>
+                            <div class="mb-6">
+                                <textarea placeholder="Какие носочки тебе нравятся?" rows="4" class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-pink-500 outline-none transition"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-pink-500 text-white py-4 rounded-xl font-semibold hover:bg-pink-600 transition transform hover:scale-105">
+                                Отправить заявку
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i data-lucide="heart" class="text-pink-500 w-8 h-8"></i>
+                        <span class="text-2xl font-bold">LuckyRainLord</span>
+                    </div>
+                    <p class="text-gray-400">Волшебные носочки для маленьких модниц с дырочками, которые делают их особенными!</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 text-lg">Разделы</h4>
+                    <div class="space-y-2">
+                        <a href="#services" class="block text-gray-400 hover:text-pink-500 transition">Носочки</a>
+                        <a href="#prices" class="block text-gray-400 hover:text-pink-500 transition">Цены</a>
+                        <a href="#about" class="block text-gray-400 hover:text-pink-500 transition">О нас</a>
+                        <a href="#reviews" class="block text-gray-400 hover:text-pink-500 transition">Отзывы</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 text-lg">Контакты</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p>Телефон: 872934</p>
+                        <p>Email: hello@luckyrainlord.ru</p>
+                        <p>г. Москва, ул. Волшебная, д. 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 LuckyRainLord. Все права защищены. Создано с любовью для маленьких принцесс ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+        AOS.init({ 
+            duration: 900, 
+            once: true, 
+            easing: 'ease-out-cubic' 
+        }); 
+        lucide.createIcons();
+    </script>
+
+
+<div id="lang-sw" style="position:fixed;top:80px;right:20px;z-index:9999;display:flex;gap:4px;background:rgba(0,0,0,0.55);padding:6px 8px;border-radius:8px;"><button onclick="setLang('ru')" id="btn-ru" style="padding:4px 10px;border-radius:4px;border:none;background:#fff;color:#000;cursor:pointer;font-weight:700;font-size:12px;">RU</button><button onclick="setLang('kz')" id="btn-kz" style="padding:4px 10px;border-radius:4px;border:none;background:transparent;color:#fff;cursor:pointer;font-weight:700;font-size:12px;">KZ</button></div>
+<script>
+const _KZ={"Счастливых девочек": "Бақытты қыздар", "Что говорят наши маленькие клиенты": "Біздің кішкентай клиенттеріміз не айтады", "Модница Инста": "Инста модницасы", "Наши носочки — это не просто носочки!": "Біздің носочки — бұл жай ғана носочки емес!", "9 лет, Казань": "9 жас, Қазань", "Каждая пара — это произведение искусства! Сердечки, звёздочки, короны и блёстки на любой вкус.": "Әр жұп — бұл өнер туындысы! Жүректер, жұлдыздар, тәждер және блеск әрбір талғамға сәйкес.", "Каждая пара уникальна и уже готова к приключениям!": "Әр жұп ерекше және әлі де қызығындарға дайын!", "Придумывает самые красивые узоры и дырочки для носочков": "Носочкілер үшін ең әндігі өрнектер мен тесіктерді ойлап табады", "Принцесса Дырочка": "Принцесс Тесік", "Команда": "Топ", "Изготовлены из натурального хлопка высшего качества. Ножкам будет комфортно весь день!": "Ең сапалы табиғи мақта нанықтарынан жасалған. Аяқтар күн бойы ыңғайлы болады!", "которые": "қайсы", "Супергёрл": "Супергёрл", "Звёздная Радуга": "Жұлдызды Қоршау", "Цены": "Бағалар", "Мы создаём волшебство для маленьких принцесс!": "Біз кішкентай принцесстер үшін сиқырды құрайтын боламыз!", "Посмотри, как здорово выглядят наши носочки!": "Біздің носочкілер қаншалықты тамаша көрінетіндігін қараңыз!", "Волшебные носочки для маленьких модниц с дырочками, которые делают их особенными!": "Оларды ерекше ететін тесіктері бар кішкентай модницалар үшін сиқырлы носочкілер!", "Заказать": "Тапсырыс беру", "LuckyRainLord": "LuckyRainLord", "Галерея": "Галерея", "Галерея стиля": "Стиль галереясы", "Общается с клиентами и делает всех счастливыми!": "Клиенттермен сөйлесіп, барлығын бақытты ететін болады!", "Максимальная выгода для модниц!": "Модницалар үшін максималды пайда!", "Контакты": "Контактілер", "Розовые носочки с милыми сердечками и заранее продуманными дырочками. Идеальны для настоящих принцесс, которые любят комфорт!": "Сүйкімді жүректері мен ирелі ойластырылған тесіктері бар қызыл носочкілер. Ыңғайды сүйетін шын принцесстер үшін ең сәйкес!", "8 лет, Москва": "8 жас, Мәскеу", "Одна пара": "Бір жұп", "Носочки": "Носочкілер", "Наши волшебные носочки": "Біздің сиқырлы носочкілер", "Королевский Стиль": "Корольдің стилі", "Мастер качества": "Сапа шебері", "Оставь заявку": "Өтініш қалдырыңыз", "Супер мягкие": "Супер жұмсақ", "Email": "Электрондық пошта", "Яркие разноцветные носочки с блёстками и звёздочками. Дырочки расположены так стильно, что это настоящий тренд сезона!": "Блеск және жұлдыздары бар ярқын түрлі-түсті носочкілер. Тесіктер осылай стильді орналасқан, бұл маусымның нағыз тренді!", "Чемпионка": "Чемпион", "Самые стильные носочки для фотосессий! Дырочки расположены так эстетично, что все подружки будут в восторге.": "Фотосессия үшін ең стильді носочкілер! Тесіктер сондай естетикалық орналасқан, бәрі дос қыздар ләззат алады.", "Отзывы": "Пікірлер", "Отзывы девочек и их мам": "Қыздар мен олардың аналарының пікірлері", "Закажи волшебные носочки прямо сейчас": "Сиқырлы носочкілерді бірден тапсырыс беріңіз", "Три пары": "Үш жұп", "Сэкономь 198₽ на покупке комплекта!": "Комплект сатып алғанда 198₽ сәнді бөлінік!", "Следит, чтобы каждый носочек был супер мягким и удобным": "Әр носочектің супер жұмсақ және ыңғайлы болуын қадағалайды", "Качество и стиль по доступным ценам!": "Қол жеткізілетін бағасында сапа және стиль!", "Яркий дизайн": "Ярқын дизайн", "г. Москва, ул. Волшебная, д. 1": "Мәскеу қ., Сиқырлы көш., 1 үй", "Элегантные носочки с короной и бантиками. Дырочки сделаны специально, чтобы ножки дышали и было удобно весь день!": "Тәж және бантиктері бар элегантты носочкілер. Аяқтар дем алсын және күн бойы ыңғайлы болсын деп тесіктер ерекше жасалған!", "LuckyRainLord - Волшебные носочки для маленьких модниц": "LuckyRainLord - кішкентай модницалар үшін сиқырлы носочкілер", "Дизайнов": "Дизайндар", "Ева Яркая": "Ева Ярқын", "Ирина (мама Ани)": "Ирина (Анидің анасы)", "всегда остаются новыми!": "әрқашан жаңа болып қалатын болады!", "Главный дизайнер": "Басты дизайнер", "Специалист по счастью": "Бақыт мамандығы", "Телефон: 872934": "Телефон: 872934", "Разделы": "Бөлімдер", "Мы в соцсетях": "Біз әлеуметтік желілерде", "Алиса Волшебница": "Алиса Сиқыршы", "Email: hello@luckyrainlord.ru": "Электрондық пошта: hello@luckyrainlord.ru", "hello@luckyrainlord.ru": "hello@luckyrainlord.ru", "Дырочки — это фишка!": "Тесіктер — бұл құлық!", "Соня": "Соня", "Адрес": "Мекен-жайы", "Идеально для знакомства с нашими носочками": "Біздің носочкілерімен танысу үшін ең сәйкес", "Свяжись с нами!": "Бізбен байланысқа түріңіз!", "О нас": "Біз туралы", "Маша": "Маша", "Больше не нужно переживать, когда появится дырка. Она уже есть и это круто! Носочки прослужат гораздо дольше.": "Тесік пайда болғанда артық алаңдамаудың қажеті жок. Ол өзі бар және бұл ойлы! Носочкілер әлі де ұзақ сақталады.", "Спортивные носочки с медальками и заслуженными дырочками. Для девочек, которые покоряют вершины!": "Медальдері және түгелімі тесіктері бар спорттық носочкілер. Шыңдарды немесе беген қыздар үшін!", "Телефон": "Телефон", "Для активных девочек! Яркие носочки с молниями и супер-дырочками, которые делают каждый шаг особенным.": "Белсенді қыздар үшін! Әр қадамды ерекше ететін найзағайы мен супер-тесіктері бар ярқын носочкілер.", "Санкт-Петербург": "Санкт-Петербург", "Почему мы особенные?": "Неліктен біз ерекше?", "Наша команда мечты": "Біздің армандағы топ", "&copy; 2024 LuckyRainLord. Все права защищены. Создано с любовью для маленьких принцесс ❤️": "&copy; 2024 LuckyRainLord. Барлық құқықтар сақталған. Кішкентай принцесстерге сүйіспеншіліктің арқасында құрылған ❤️", "Пять пар": "Бес жұп", "Цены на волшебство": "Сиқырдың бағалары", "София Добрая": "София Жақсы", "Хит!": "Хит!"};
+function setLang(l){
+  if(l==="kz"){
+    document.querySelectorAll("*").forEach(el=>{
+      if(!el.children.length&&el.textContent.trim()){
+        const ru=el.textContent.trim();
+        if(_KZ[ru]){el.dataset.ru=ru;el.textContent=_KZ[ru];}
+      }
+    });
+  } else {
+    document.querySelectorAll("[data-ru]").forEach(el=>{
+      el.textContent=el.dataset.ru;
+    });
+  }
+  document.getElementById("btn-ru").style.cssText=
+    l==="ru"?"padding:4px 10px;border-radius:4px;border:none;background:#fff;color:#000;cursor:pointer;font-weight:700;font-size:12px;"
+           :"padding:4px 10px;border-radius:4px;border:none;background:transparent;color:#fff;cursor:pointer;font-weight:700;font-size:12px;";
+  document.getElementById("btn-kz").style.cssText=
+    l==="kz"?"padding:4px 10px;border-radius:4px;border:none;background:#fff;color:#000;cursor:pointer;font-weight:700;font-size:12px;"
+           :"padding:4px 10px;border-radius:4px;border:none;background:transparent;color:#fff;cursor:pointer;font-weight:700;font-size:12px;";
+  localStorage.setItem("site_lang",l);
+}
+window.addEventListener("load",()=>{
+  const s=localStorage.getItem("site_lang");
+  if(s)setLang(s);
+});
+</script>
+</body>
+</html>
